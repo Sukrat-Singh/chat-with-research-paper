@@ -1,0 +1,81 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.py[cod]
+*.so
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# =========================
+# Environment variables (CRITICAL)
+# =========================
+.env
+.env.*
+
+# Allow example file
+!.env.example
+
+# =========================
+# uv / packaging
+# =========================
+# Keep lock file (important for reproducibility)
+# uv.lock  ← DO NOT ignore
+
+# Python version
+.python-version
+
+# =========================
+# Data (RAG specific)
+# =========================
+data/chroma/
+data/uploads/
+
+# =========================
+# Logs & temp
+# =========================
+*.log
+*.tmp
+*.temp
+
+# =========================
+# Streamlit
+# =========================
+.streamlit/
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# IDE / Editor
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# Testing / coverage
+# =========================
+.pytest_cache/
+.coverage
+htmlcov/
+
+# =========================
+# Build artifacts
+# =========================
+dist/
+build/
+*.egg-info/
+
+# =========================
+# Jupyter (if used later)
+# =========================
+.ipynb_checkpoints/

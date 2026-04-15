@@ -1,0 +1,21 @@
+[project]
+name = "chat-with-research-paper"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "chromadb",
+    "langchain",
+    "langchain-chroma",
+    "langchain-community",
+    "langchain-core",
+    "langchain-groq",
+    "langchain-huggingface",
+    "langchain-text-splitters",
+    "pypdf",
+    "python-dotenv",
+    "sentence-transformers",
+    "streamlit",
+    "torchvision",
+]
