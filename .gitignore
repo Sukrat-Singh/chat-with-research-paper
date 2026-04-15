@@ -79,3 +79,5 @@ build/
 # Jupyter (if used later)
 # =========================
 .ipynb_checkpoints/
+
+dummy.pdf
