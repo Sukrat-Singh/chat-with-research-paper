@@ -10,7 +10,7 @@ A Retrieval-Augmented Generation (RAG) system that allows users to query researc
 
 ## Demo
 
-![demo gif](utils\gif1.gif)
+![demo gif](/utils/gif1.gif)
 
 ---
 
